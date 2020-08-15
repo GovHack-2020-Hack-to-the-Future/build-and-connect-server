@@ -1,0 +1,19 @@
+"""
+Message.
+"""
+type Message {
+  """
+  Message ID.
+  """
+  id: ID!
+
+  """
+  Message description.
+  """
+  description: String!
+
+  """
+  Message title.
+  """
+  title: String!
+}

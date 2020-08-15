@@ -1,0 +1,6 @@
+type Mutation {
+  """
+  Sign in to sync current user's info.
+  """
+  signIn: User!
+}

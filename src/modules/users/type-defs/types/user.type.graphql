@@ -1,0 +1,24 @@
+"""
+Non-sensitive user information.
+"""
+type User {
+  """
+  User ID.
+  """
+  id: ID!
+
+  """
+  User's full name.
+  """
+  name: String
+
+  """
+  User's nickname.
+  """
+  nickname: String
+
+  """
+  Picture URL.
+  """
+  pictureUrl: URL
+}
