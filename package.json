@@ -1,6 +1,6 @@
 {
   "name": "build-and-connect-server",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "build": "webpack --config webpack.$NODE_ENV.js",
