@@ -1,0 +1,6 @@
+type Query {
+  """
+  Message by ID.
+  """
+  messageById(id: ID!): Message @cacheControl(maxAge: 300)
+}

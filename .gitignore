@@ -1,0 +1,11 @@
+/.vscode
+/coverage
+/dist
+/node_modules
+/tmp
+.DS_Store
+.env
+.wakatime-project
+graphql-codegen-types.ts
+npm-debug.log
+Thumbs.db
